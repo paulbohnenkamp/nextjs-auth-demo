@@ -1,0 +1,14 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": ["app", "components", "lib", "prisma/seed.ts"],
+  "entryPointStrategy": "expand",
+  "out": "docs/reference",
+  "plugin": ["typedoc-plugin-markdown"],
+  "readme": "none",
+  "exclude": ["**/*.test.ts", "**/*.spec.ts", "**/next-env.d.ts"],
+  "excludePrivate": true,
+  "excludeInternal": true,
+  "githubPages": false,
+  "hidePageHeader": true,
+  "hideGenerator": true
+}

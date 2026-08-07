@@ -75,3 +75,7 @@ With the development server running, browse the complete documentation portal at
 ## Demo versus production
 
 The example uses an in-memory per-process rate limiter and a placeholder reset-password action. Production needs a shared rate-limit store, verified proxy/IP configuration, email delivery and expiring reset tokens, observability with sensitive-field redaction, secret management, TLS, backups, dependency scanning, and organization-specific legal text. For higher-risk applications add MFA, breached-password screening, session management, audit events, and a deliberate account-enumeration policy.
+
+## License
+
+This project is licensed under the Apache License 2.0. See [LICENSE](LICENSE).
